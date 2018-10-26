@@ -59,7 +59,7 @@ public class FileRetrieval extends HttpServlet {
   
      
     
-      creds = new BasicAWSCredentials("AKIAJDSNDKNOXG34S27A", "VWCwvBBXz8wMQaip7qpXP3uH916dTMA7vDDYMeCt");
+      creds = new BasicAWSCredentials("", "");
       String filepath ="F:\\Keerthana\\V sem\\Cloud\\aws\\s3\\test\\test.data";
       String foldername="s3/test.data";
       AmazonS3 s3 = AmazonS3Client.builder().withRegion(Regions.US_EAST_1).withCredentials(new AWSStaticCredentialsProvider(creds)).build();
