@@ -182,7 +182,7 @@ public class FileUpload extends HttpServlet {
     {
        BasicAWSCredentials creds=null;
         String bucketName = "rescuelife123";
-              creds = new BasicAWSCredentials("AKIAJDSNDKNOXG34S27A", "VWCwvBBXz8wMQaip7qpXP3uH916dTMA7vDDYMeCt");
+              creds = new BasicAWSCredentials("", "");
       String path=filepath;
       String foldername="s3/test.data";
       System.out.println("File uploaded");
